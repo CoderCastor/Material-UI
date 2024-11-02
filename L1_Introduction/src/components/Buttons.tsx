@@ -90,7 +90,7 @@ function Buttons() {
       </Stack>
       <Stack direction={"row"} spacing={3}>
         {/* for vertically user orientation  */}
-        <ButtonGroup variant="text" orientation="vertical">
+        <ButtonGroup variant="text" orientation="vertical" className="">
           <Button>medium</Button>
           <Button>medium</Button>
           <Button>medium</Button>
