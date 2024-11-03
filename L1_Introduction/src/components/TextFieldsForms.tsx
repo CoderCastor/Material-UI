@@ -100,10 +100,10 @@ function TextFieldsForms() {
           helperText="Enter your Mobile Number"
           type="number"
           InputProps={{
-
-            startAdornment: <InputAdornment position="start">+ 91 </InputAdornment>
-          }
-          }
+            startAdornment: (
+              <InputAdornment position="start">+ 91 </InputAdornment>
+            ),
+          }}
         />
       </Stack>
     </Stack>
