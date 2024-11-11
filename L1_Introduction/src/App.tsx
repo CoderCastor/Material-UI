@@ -2,6 +2,7 @@
 import Buttons from "./components/Buttons"
 import CheckBoxes from "./components/CheckBoxes"
 import RadioButtons from "./components/RadioButtons"
+import RatingMui from "./components/RatingMui"
 import SelectDropDown from "./components/SelectDropDown"
 import SwitchesMui from "./components/SwitchesMui"
 import TextFieldsForms from "./components/TextFieldsForms"
@@ -19,7 +20,8 @@ function App() {
       {/* <SelectDropDown/> */}
       {/* <RadioButtons/> */}
       {/* <CheckBoxes/> */}
-      <SwitchesMui/>
+      {/* <SwitchesMui/> */}
+      <RatingMui/>
     </div>
   )
 }
