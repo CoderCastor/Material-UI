@@ -1,4 +1,5 @@
 // import TextTypography from "./components/TextTypography"
+import AutocompleteMui from "./components/AutocompleteMui"
 import Buttons from "./components/Buttons"
 import CheckBoxes from "./components/CheckBoxes"
 import RadioButtons from "./components/RadioButtons"
@@ -21,7 +22,8 @@ function App() {
       {/* <RadioButtons/> */}
       {/* <CheckBoxes/> */}
       {/* <SwitchesMui/> */}
-      <RatingMui/>
+      {/* <RatingMui/> */}
+      <AutocompleteMui/>
     </div>
   )
 }
