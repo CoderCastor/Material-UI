@@ -8,18 +8,18 @@ function AutocompleteMui() {
   const skills = ["HTML", "JavaScript", "CSS", "NodeJS", "Express"];
 
   type Skill = {
-    id: number,
-    label: String
-  }
+    id: number;
+    label: String;
+  };
 
-  const [skill,setSkill] = useState<Skill | null>(null)
-  const skillsOptions = skills.map((skill,index)=>({
-    id: index+1,
-    label:skill,
-  }))
+  const [skill, setSkill] = useState<Skill | null>(null);
+  const skillsOptions = skills.map((skill, index) => ({
+    id: index + 1,
+    label: skill,
+  }));
 
   // console.log(value)
-  console.log(skill)
+  console.log(skill);
 
   return (
     <Stack spacing={2} width={"250px"}>
@@ -27,21 +27,21 @@ function AutocompleteMui() {
         options={skills}
         value={value}
         renderInput={(params) => <TextField {...params} label="Skills" />}
-        onChange={(event: any,newValue: String | null )=> setValue(newValue)}
+        onChange={(event: any, newValue: String | null) => setValue(newValue)}
       />
 
-<Autocomplete
+      <Autocomplete
         options={skills}
         renderInput={(params) => <TextField {...params} label="Skills" />}
         value={value}
-        onChange={(event: any,newValue: String | null )=> setValue(newValue)}
+        onChange={(event: any, newValue: String | null) => setValue(newValue)}
         freeSolo
       />
       <Autocomplete
         options={skillsOptions}
         renderInput={(params) => <TextField {...params} label="Skills" />}
         value={skill}
-        onChange={(event: any,newValue: Skill | null )=> setSkill(newValue)}
+        onChange={(event: any, newValue: Skill | null) => setSkill(newValue)}
       />
     </Stack>
   );
