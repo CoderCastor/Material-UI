@@ -1,5 +1,6 @@
 // import TextTypography from "./components/TextTypography"
 import Buttons from "./components/Buttons"
+import CheckBoxes from "./components/CheckBoxes"
 import RadioButtons from "./components/RadioButtons"
 import SelectDropDown from "./components/SelectDropDown"
 import TextFieldsForms from "./components/TextFieldsForms"
@@ -15,7 +16,8 @@ function App() {
       {/* <ToggleButtonsGroup/> */}
       {/* <TextFieldsForms/> */}
       {/* <SelectDropDown/> */}
-      <RadioButtons/>
+      {/* <RadioButtons/> */}
+      <CheckBoxes/>
     </div>
   )
 }
