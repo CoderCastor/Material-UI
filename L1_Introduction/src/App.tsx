@@ -3,6 +3,7 @@ import AutocompleteMui from "./components/AutocompleteMui"
 import Buttons from "./components/Buttons"
 import CheckBoxes from "./components/CheckBoxes"
 import LayoutBox from "./components/LayoutBox"
+import LayoutGrid from "./components/LayoutGrid"
 import LayoutStack from "./components/LayoutStack"
 import RadioButtons from "./components/RadioButtons"
 import RatingMui from "./components/RatingMui"
@@ -27,7 +28,8 @@ function App() {
       {/* <RatingMui/> */}
       {/* <AutocompleteMui/> */}
       {/* <LayoutBox/> */}
-      <LayoutStack/>
+      {/* <LayoutStack/> */}
+      <LayoutGrid />
     </div>
   )
 }
